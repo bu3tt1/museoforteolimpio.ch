@@ -43,11 +43,13 @@
         float: right;
         clear: both;
         width: 100%;
-        .active .btn{
-            text-decoration: underline;
-        }
         li:last-child {
             padding-bottom: 10px;
+        }
+        li.active {
+            a{
+                text-decoration: underline;
+            }
         }
     }
     .navbar{
@@ -103,14 +105,16 @@
             font-size: 1.5rem;
             line-height: 1.5rem;
         }
-        .active .btn{
-            text-decoration: underline;
-        }
         .highlight{
         	padding-left: 50px;
         }
         li{
-       		padding-right: 15px;
+            padding-right: 15px;
+        }
+        li.active {
+            a{
+                text-decoration: underline;
+            }
         }
         li:last-child {
             padding-right: 0;

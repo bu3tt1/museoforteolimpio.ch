@@ -37,10 +37,10 @@
     float: right;
     clear: both;
     width: 100%; }
-    .navbar-nav .active .btn {
-      text-decoration: underline; }
     .navbar-nav li:last-child {
       padding-bottom: 10px; }
+    .navbar-nav li.active a {
+      text-decoration: underline; }
   .navbar .languages {
     width: 100%;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -79,12 +79,12 @@
     .navbar-nav a {
       font-size: 1.5rem;
       line-height: 1.5rem; }
-    .navbar-nav .active .btn {
-      text-decoration: underline; }
     .navbar-nav .highlight {
       padding-left: 50px; }
     .navbar-nav li {
       padding-right: 15px; }
+    .navbar-nav li.active a {
+      text-decoration: underline; }
     .navbar-nav li:last-child {
       padding-right: 0; }
       .navbar-nav li:last-child a.nav-link {
@@ -150,11 +150,11 @@ body {
   padding-top: 9px; }
 
 h1:first-of-type {
-  margin-top: 80px; }
+  margin-top: 50px; }
 
 h1 {
   line-height: 2.3rem;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 30px;
   font-weight: 300; }
 
