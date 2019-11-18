@@ -1,0 +1,54 @@
+title: Header
+'@extends':
+    type: default
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+      fields:
+        images:
+          type: tab
+          title: Images
+          fields:
+            header.images:
+              name: images
+              type: list
+              style: vertical
+              label: Images
+              fields:
+                .full:
+                  type: filepicker
+                  folder: '@self'
+                  preview_images: true
+                  accept:
+                    - .png
+                    - .jpg
+                  label: Full Image
+                  help: Full image's filename.
+        buttons:
+          type: tab
+          title: Buttons
+          fields:
+            header.title:
+              name: title
+              type: text
+              label: Title
+            header.buttons:
+              name: buttons
+              type: list
+              label: Buttons
+              fields:
+                .text:
+                  type: text
+                  label: Text
+                .url:
+                  type: text
+                  label: URL
+                .style:
+                  type: text
+                  label: Style
+                .target:
+                  type: checkbox
+                  label: Target _blank

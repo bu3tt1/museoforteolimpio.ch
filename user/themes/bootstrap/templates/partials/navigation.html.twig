@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="/{{ grav.language.getLanguage }}" title="{{ site.title|e('html') }}" aria-label="home"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        {% for page in pages.children.visible %}
+            {% if page.header.display %}
+                {% set current_page = (page.active or page.activeChild) ? 'active' : '' %}
+                <li class="nav-item {{ current_page }} {% if page.header.highlight %}highlight{% endif %}">
+                    <a class="{% if page.header.highlight %}btn btn-primary{% else %}nav-link{% endif %}" href="{{ page.url }}">{{ page.menu }}</a>
+                </li>
+            {% endif %}
+        {% endfor %}
+      </ul>
+        {% if config.plugins.langswitcher.enabled %}
+            {% include 'partials/langswitcher.html.twig' %}
+        {% endif %}
+    </div>
+  </div>
+</nav>

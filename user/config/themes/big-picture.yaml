@@ -1,0 +1,13 @@
+enabled: true
+favicon:
+  user/themes/big-picture/images/static1.squarespace.com.png:
+    name: static1.squarespace.com.png
+    type: image/png
+    size: 166722
+    path: user/themes/big-picture/images/static1.squarespace.com.png
+error_background_image:
+  user/themes/big-picture/images/dee6a93a-5ff4-4b89-91d3-f221b2545d1b.JPG:
+    name: dee6a93a-5ff4-4b89-91d3-f221b2545d1b.JPG
+    type: image/jpeg
+    size: 255220
+    path: user/themes/big-picture/images/dee6a93a-5ff4-4b89-91d3-f221b2545d1b.JPG

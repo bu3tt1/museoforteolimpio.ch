@@ -1,0 +1,11 @@
+state: enabled
+email: info@capannagambarogno.ch
+fullname: Admin
+title: Administrator
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$XW2.xXp5xR.dgc.6.ln/A./KgzZWX9zOMdP8.Z7flre1PIOr6LhIa

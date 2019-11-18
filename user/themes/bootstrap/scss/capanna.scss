@@ -1,0 +1,94 @@
+
+@import "theme/mixins/breakpoints";
+
+
+
+/* menu
+************************************************************/
+@import "menu";
+
+/* cover
+************************************************************/
+@import "cover";
+
+/* footer
+************************************************************/
+ul.social{
+    list-style: none;
+    padding: 0;
+    a{
+        color: #000;
+    }
+    li{
+        display: inline-block;
+        margin-right: 10px;
+    }
+    svg{
+        width: 2rem;
+    }
+}
+.footer{
+    padding-top: 30px;
+    .address{
+        font-size: 1rem;
+        line-height: 1.2rem;
+        text-align: right;
+    }
+}
+
+
+
+/* general
+************************************************************/
+body{
+	font-family: 'Catamaran', sans-serif;
+	font-weight: 100;
+	font-size: 18pt;
+}
+.btn-primary{
+    background-color: #00abeb;
+    border-color: #007fae;
+    padding-top: 9px;
+}
+h1:first-of-type{
+	margin-top: 80px;
+}
+h1{
+    line-height: 2.3rem;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+.container p{
+	line-height: 28pt;
+}
+
+/* media
+************************************************************/
+//mobile
+@include breakpoint('mobile-only') {
+    .container{
+        h1{
+            padding-top: 10px;
+            &:first-child{
+                padding-top: 30px;
+            }
+        }
+    }
+    .footer{
+        .address{
+            text-align: left;
+        }
+    }
+}
+//desktop
+@include breakpoint('no-mobile') {
+    .container{
+        h1{
+            padding-top: 20px;
+            &:first-child{
+                	-top: 50px;
+            }
+        }
+    }
+}
