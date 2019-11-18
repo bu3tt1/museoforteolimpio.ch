@@ -15,7 +15,7 @@
             {% endif %}
         {% endfor %}
       </ul>
-        {% if config.plugins.langswitcher.enabled %}
+        {% if config.plugins.langswitcher.enabled and grav.language.getLanguages|length > 1  %}
             {% include 'partials/langswitcher.html.twig' %}
         {% endif %}
     </div>
