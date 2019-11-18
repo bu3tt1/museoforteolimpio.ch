@@ -1,5 +1,5 @@
 ---
-title: Der Verein 
+title: Esposizioni
 content:
     items: '@self.modular'
     order:

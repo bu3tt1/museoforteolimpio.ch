@@ -1,5 +1,5 @@
 ---
-title: Sostienici
+title: Contatti
 content:
     items: '@self.modular'
     order:
@@ -9,7 +9,7 @@ content:
             - _header
             - _text
 onpage_menu: false
-highlight: true
+highlight: false
 display: true
 ---
 

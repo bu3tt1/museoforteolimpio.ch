@@ -1,5 +1,5 @@
 ---
-title: Die Hütte
+title: Museo
 content:
     items: '@self.modular'
     order:

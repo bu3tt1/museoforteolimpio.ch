@@ -10,7 +10,6 @@ intl_enabled: true
 languages:
   supported:
     - it
-    - de
   default_lang: it
   include_default_lang: true
   pages_fallback_only: false
@@ -20,7 +19,7 @@ languages:
   http_accept_language: false
   override_locale: false
 home:
-  alias: /lacapanna
+  alias: /museo
   hide_in_urls: false
 pages:
   theme: bootstrap

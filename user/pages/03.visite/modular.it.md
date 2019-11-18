@@ -1,5 +1,5 @@
 ---
-title: Das Projekt
+title: Visite
 content:
     items: '@self.modular'
     order:
