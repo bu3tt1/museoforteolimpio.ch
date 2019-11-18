@@ -1,11 +1,11 @@
 /* menu
 ************************************************************/
 .navbar-brand {
-  background-image: url(../../images/logo.svg);
+  background-image: url(../../images/logo.jpg);
   background-repeat: no-repeat; }
 
 .navbar {
-  background: rgba(255, 255, 255, 0.9);
+  background: #c0bcb1;
   padding-bottom: 15px; }
   .navbar .languages {
     list-style: none;
@@ -27,9 +27,9 @@
 ************************************************************/
 @media only screen and (max-width: 991px) {
   .navbar-brand {
-    width: 100px;
+    width: 181px;
     height: 100px;
-    background-size: 100px 100px; }
+    background-size: 181px 100px; }
   .languages,
   .navbar-nav {
     text-align: right; }
@@ -56,9 +56,9 @@
 ************************************************************/
 @media only screen and (min-width: 992px) {
   .navbar-brand {
-    width: 150px;
-    height: 150px;
-    background-size: 150px 150px; }
+    width: 181px;
+    height: 100px;
+    background-size: 181px 100px; }
   .navbar .container {
     position: relative; }
   .navbar .languages {
@@ -140,7 +140,7 @@ ul.social {
 /* general
 ************************************************************/
 body {
-  font-family: 'Catamaran', sans-serif;
+  font-family: 'Cutive Mono', monospace;
   font-weight: 100;
   font-size: 18pt; }
 

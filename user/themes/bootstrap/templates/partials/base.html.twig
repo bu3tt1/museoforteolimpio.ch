@@ -12,8 +12,7 @@
         {% block stylesheets %}
             {% do assets.add('theme://css/font-awesome.min.css',100) %}
             {% do assets.add('theme://css-compiled/capanna.css',99) %}
-            <link href="https://fonts.googleapis.com/css?family=Handlee&display=swap" rel="stylesheet"> 
-            <link href="https://fonts.googleapis.com/css?family=Catamaran:100,400&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap" rel="stylesheet">
         {% endblock %}
 
         {% block javascripts %}
@@ -31,17 +30,6 @@
             {{ assets.css()|raw }}
             {{ assets.js()|raw }}
         {% endblock %}
-        <script>
-            
-            /**
-            * scroll to section
-            */
-            function scrollToSection(){
-                $('html, body').animate({
-                    scrollTop: $("section.page-container").offset().top - $('.navbar').outerHeight()
-                }, 500);
-            }
-        </script>
     {% endblock head%}
     </head>
 
