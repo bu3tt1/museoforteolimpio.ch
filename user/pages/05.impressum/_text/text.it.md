@@ -1,9 +1,4 @@
 # Proprietario del sito
-Associazione "AMIS DALA CAPANNA GAMBARÖGN"<br>
-CP 14<br>
-CH - 6574 VIRA GAMBAROGNO
-
-# Fotografie
-Ludovic Besse<br>
-Pepe Regazzi<br>
-Paolo Pedroni
+Associazione Fortificazioni Gambarogno<br>
+Via al Forte 9<br>
+CH - 6573 Magadino
