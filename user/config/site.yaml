@@ -1,13 +1,13 @@
-title: 'Capanna Gambarögn'
+title: 'Museo Forte Olimpio'
 default_lang: it
 author:
-  name: 'Capanna Gambarögn'
-  email: info@capannagambarogno.ch
+  name: 'Museo Forte Olimpio'
+  email: info@museoforteolimpio.ch
 taxonomies:
   - category
   - tag
 metadata:
-  description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+  description: 'Museo Forte Olimpio'
 summary:
   enabled: true
   format: short

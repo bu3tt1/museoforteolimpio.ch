@@ -32,13 +32,7 @@
             {{ assets.js()|raw }}
         {% endblock %}
         <script>
-            $(function(){
-                // fix height carousel in mobile browsers
-                $('.carousel-item').css('height', $(window).height() );
-                $(window).resize(function() {
-                    $('.carousel-item').css('height', $(window).height());
-                });
-            });
+            
             /**
             * scroll to section
             */

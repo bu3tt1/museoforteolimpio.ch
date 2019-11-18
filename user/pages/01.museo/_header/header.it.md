@@ -8,16 +8,5 @@ images:
         full: DSCF6157.jpg
     -
         full: 20190706_180919.jpg
-buttons:
-    -
-        text: Sostienici
-        url: /it/sostienici
-        style: button
-        target: false
-    -
-        text: 'Ulteriori informazioni'
-        url: 'javascript:scrollToSection();'
-        style: arrow
-        target: false
 ---
 

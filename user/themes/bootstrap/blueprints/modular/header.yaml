@@ -27,28 +27,3 @@ form:
                     - .jpg
                   label: Full Image
                   help: Full image's filename.
-        buttons:
-          type: tab
-          title: Buttons
-          fields:
-            header.title:
-              name: title
-              type: text
-              label: Title
-            header.buttons:
-              name: buttons
-              type: list
-              label: Buttons
-              fields:
-                .text:
-                  type: text
-                  label: Text
-                .url:
-                  type: text
-                  label: URL
-                .style:
-                  type: text
-                  label: Style
-                .target:
-                  type: checkbox
-                  label: Target _blank

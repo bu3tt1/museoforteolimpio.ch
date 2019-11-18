@@ -93,8 +93,8 @@
 /* cover
 ************************************************************/
 .carousel-item {
-  height: 100vh;
-  min-height: 350px;
+  height: 500px;
+  min-height: 500px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -104,31 +104,6 @@
 .carousel-control-next,
 .carousel-control-prev {
   z-index: 900; }
-
-.cover-caption {
-  position: absolute;
-  bottom: 50px;
-  left: 0;
-  right: 0;
-  z-index: 800;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-  .cover-caption .content {
-    padding: 15px;
-    margin: 0 20px; }
-    .cover-caption .content .text {
-      color: #fff;
-      font-family: 'Handlee', cursive;
-      /*text-shadow:
-                5px 5px 0 #000,
-                5px 5px 0 #000,  
-                5px -5px 0 #000,
-                -5px 5px 0 #000,
-                5px 5px 0 #000; */ }
-  .cover-caption a.btn {
-    margin-top: 10px; }
 
 /* media
 ************************************************************/

@@ -2,24 +2,6 @@
 {% set imagesHeight = 2000 %}
 <header>
     <div id="cover" class="carousel slide" data-ride="carousel" data-pause="false">
-        <div class="cover-caption">
-            <div class="content">
-                <div class="text">
-                    {{ header.title }}
-                </div>
-                {% if header.buttons|length > 0 %}
-                    {% for button in header.buttons %}
-                    	 <a href="{{ button.url }}" class="btn btn-primary" {% if button.target == true %}target=_blank{% endif %} role="button">
-                    	{% if button.style == 'button' %}
-                            {{ button.text }}
-                        {% elseif button.style == 'arrow' %}
-                        	<i class="fa fa-arrow-circle-down fa-lg"></i>
-                        {% endif %}
-                        </a>
-                    {% endfor %}
-                {% endif %}
-            </div>
-        </div>
         <ol class="carousel-indicators">
             {% if header.images|length > 0 %}
                 {% for image in header.images %}
