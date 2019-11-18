@@ -3,6 +3,6 @@ title: 'Impressum'
 media_order: socio.jpeg
 images:
     -
-        full: socio.jpeg
+        full: IMG_6999.JPG
 ---
 
