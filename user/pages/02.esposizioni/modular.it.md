@@ -8,6 +8,7 @@ content:
         custom:
             - _header
             - _text
+            - _images
 onpage_menu: false
 highlight: false
 display: true

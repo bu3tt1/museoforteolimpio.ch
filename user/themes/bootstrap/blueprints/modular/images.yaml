@@ -1,0 +1,32 @@
+title: Images
+'@extends':
+    type: default
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+      fields:
+        images:
+          type: tab
+          title: Images
+          fields:
+            header.images:
+              name: images
+              type: list
+              style: vertical
+              label: Images
+              fields:
+                .full:
+                  type: filepicker
+                  folder: '@self'
+                  preview_images: true
+                  accept:
+                    - .png
+                    - .jpg
+                  label: Full Image
+                  help: Full image's filename.
+                .text:
+                  type: text
+                  label: Text     

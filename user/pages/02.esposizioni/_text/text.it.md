@@ -7,10 +7,3 @@ Sono inoltre esposti diversi oggetti e collezioni del patrimonio storico militar
 Periodicamente sono possibili al suo interno ulteriori esposizioni particolari e a tema.
 
 In giorni specifici vi è la possibilità di visite combinate al museo con altre opere militari fortificate. Consultate il [calendario](/visite) per maggiori informazioni oppure <a href="mailto:info@museoforteolimpio.ch">contattateci</a>.
-
-## Altre opere militari fortificate
-![](IMG_5546.JPG?classes=w-50&lightbox=2000,2000)
-Fortino sottoroccia, Quartino
-<br><br>
-![](IMG_5546.JPG?classes=w-50&lightbox=2000,2000)
-Fortino sottoroccia, Quartino

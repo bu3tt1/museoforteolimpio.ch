@@ -76,6 +76,18 @@ strong{
 blockquote{
     background-color: #e1e1e1;
 }
+.img-responsive{
+    width:100%;
+}
+
+.images-modular{
+    img{
+        margin-bottom: 5px;
+    }
+    > div{
+        margin-bottom: 20px;
+    }
+}
 
 /* media
 ************************************************************/

@@ -1,5 +1,5 @@
 ---
-title: Sostienici
+title: Impressum
 content:
     items: '@self.modular'
     order:

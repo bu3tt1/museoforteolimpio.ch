@@ -1,0 +1,22 @@
+{% set imagesWidth = 600 %}
+{% set imagesHeight = 600 %}
+{% set imagesLightboxWidth = 2000 %}
+{% set imagesLightboxHeight = 2000 %}
+
+
+
+{% if header.images|length > 0 %}
+    <div class="container">
+        <h2>{{ header.title }}</h2>
+        <div class="row images-modular">
+        {% for image in header.images %}
+            <div class="col-sm-6">
+                <a rel="lightbox" data-width="{{ imagesLightboxWidth }}" data-height="{{ imagesLightboxHeight }}" href="{{ page.media[image.full].cropResize(imagesLightboxWidth, imagesHimagesLightboxHeighteight).url }}">
+                    <img class="img-responsive" src="{{ page.media[image.full].cropZoom(imagesWidth, imagesHeight).url }}">
+                </a>
+                {{ image.text }}
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+{% endif %}

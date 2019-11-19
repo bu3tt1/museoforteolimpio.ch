@@ -175,6 +175,15 @@ strong {
 blockquote {
   background-color: #e1e1e1; }
 
+.img-responsive {
+  width: 100%; }
+
+.images-modular img {
+  margin-bottom: 5px; }
+
+.images-modular > div {
+  margin-bottom: 20px; }
+
 /* media
 ************************************************************/
 @media only all and (max-width: 47.938rem) {
