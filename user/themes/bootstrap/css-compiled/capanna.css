@@ -156,10 +156,24 @@ h1 {
   line-height: 2.3rem;
   margin-top: 30px;
   margin-bottom: 30px;
-  font-weight: 600; }
+  font-weight: 600;
+  color: #1d5f00; }
+
+h2 {
+  line-height: 2.3rem;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #1d5f00; }
 
 .container p {
   line-height: 28pt; }
+
+strong {
+  font-weight: 900; }
+
+blockquote {
+  background-color: #e1e1e1; }
 
 /* media
 ************************************************************/
