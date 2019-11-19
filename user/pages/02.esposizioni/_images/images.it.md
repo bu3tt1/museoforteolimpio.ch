@@ -1,12 +1,9 @@
 ---
 title: 'Altre opere militari fortificate'
-media_order: 'Foto-Esposizione.JPG,Mostra-del-fiore-Florviva-2016-Pescara-650x437.jpg'
+media_order: 'IMG_5546.JPG'
 images:
     -
-        full: Foto-Esposizione.JPG
+        full: IMG_5546.JPG
         text: 'Fortino sottoroccia, Quartino'
-    -
-        full: Mostra-del-fiore-Florviva-2016-Pescara-650x437.jpg
-        text: Fiore
 ---
 
