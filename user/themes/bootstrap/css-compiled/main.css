@@ -1,7 +1,7 @@
 /* menu
 ************************************************************/
 .navbar-brand {
-  background-image: url(../../images/logo.jpg);
+  background-image: url(../../images/logo.svg);
   background-repeat: no-repeat; }
 
 .navbar {
@@ -27,9 +27,9 @@
 ************************************************************/
 @media only screen and (max-width: 991px) {
   .navbar-brand {
-    width: 181px;
+    width: 197px;
     height: 100px;
-    background-size: 181px 100px; }
+    background-size: 197px 100px; }
   .languages,
   .navbar-nav {
     text-align: right; }
@@ -56,9 +56,9 @@
 ************************************************************/
 @media only screen and (min-width: 992px) {
   .navbar-brand {
-    width: 181px;
+    width: 197px;
     height: 100px;
-    background-size: 181px 100px; }
+    background-size: 197px 100px; }
   .navbar .container {
     position: relative; }
   .navbar .languages {
