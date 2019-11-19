@@ -1,5 +1,5 @@
 ---
-title: Amis dala Capanna Gambarögn
+title: 'Visite'
 media_order: 'DSCF5941.jpg'
 images:
     -

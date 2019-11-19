@@ -1,5 +1,5 @@
 ---
-title: 'Abbiamo aperto il crowdfunding'
+title: 'Contatti'
 media_order: socio.jpeg
 images:
     -
