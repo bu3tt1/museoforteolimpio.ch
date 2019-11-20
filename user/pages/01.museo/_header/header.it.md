@@ -1,5 +1,5 @@
 ---
-title: 'Museo'
+title: Museo
 media_order: Foto-1-Museo.jpg
 images:
     -
