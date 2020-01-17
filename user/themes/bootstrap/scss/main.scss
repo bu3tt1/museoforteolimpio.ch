@@ -75,7 +75,14 @@ strong{
 }
 blockquote{
     background-color: #e1e1e1;
+    padding: 5px;
 }
+
+.container blockquote p{
+    line-height: 1.5rem;
+    margin-bottom: 0;
+}
+
 .img-responsive{
     width:100%;
 }
@@ -88,6 +95,35 @@ blockquote{
         margin-bottom: 20px;
     }
 }
+
+th{
+    color: #1d5f00;
+    text-decoration: underline;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 1.8rem;;
+}
+
+thead tr{
+    border-bottom: 0px
+}
+
+tr{
+    height: 30px;
+    border-bottom: 1px solid black;
+}
+
+tr td:first-child{
+    width: 40%;
+    border-left: 0px
+}
+
+td{
+    vertical-align: top;
+    padding: 5px;
+    width: 30%;
+    border-left: 1px solid black;
+ }
 
 /* media
 ************************************************************/
