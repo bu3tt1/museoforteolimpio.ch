@@ -19,6 +19,3 @@ Le visite all’interno del museo sono sempre guidate.
 
 <h1>Orari e giorni di apertura</h1>
 ![](calendario_2020.jpg?classes=w-100&lightbox=2000,2000)
-
-<h1>Modulo di contatto</h1>
-todo
