@@ -13,6 +13,8 @@
             {% do assets.add('theme://css/font-awesome.min.css',100) %}
             {% do assets.add('theme://css-compiled/main.css',99) %}
             <link href="https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap" rel="stylesheet">
+            <link href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css" rel="stylesheet">
+            <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.css">
         {% endblock %}
 
         {% block javascripts %}
@@ -30,6 +32,29 @@
             {{ assets.css()|raw }}
             {{ assets.js()|raw }}
         {% endblock %}
+
+        <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
+        <script type="text/javascript">
+            $(function(){
+                if ( $('[type="date"]').prop('type') != 'date' ) {
+                    $('[type="date"]').datepicker({dateFormat: 'dd/mm/yy' });
+                }
+                if ( $('[type="date"]').prop('type') != 'time' ) {
+                    $('[type="time"]').timepicker({
+                        timeFormat: 'HH:mm',
+                        interval: 30,
+                        minTime: '8',
+                        maxTime: '22',
+                        startTime: '8:00',
+                        dynamic: false,
+                        dropdown: true,
+                        scrollbar: true
+                    });
+                }
+            });
+        </script>
+
     {% endblock head%}
     </head>
 
