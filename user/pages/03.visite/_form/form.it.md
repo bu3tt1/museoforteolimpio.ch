@@ -5,7 +5,6 @@ form:
     fields:
         - name: name
           label: Nome
-          autofocus: on
           type: text
           validate:
             required: true

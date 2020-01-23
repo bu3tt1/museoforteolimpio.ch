@@ -4,9 +4,12 @@ image_align: left
 ---
 
 <h1>Visite</h1>
-Il Museo è aperto da marzo a ottobre come da calendario.
+Il Museo è aperto da marzo a ottobre.
+
 In giorni specifici, indicati a calendario, sono organizzate visite combinate in altre opere militari fortificate.
+
 Apertura fuori orario possibili per gruppi, scuole, associazioni su richiesta (min. 10 persone), con pagamento di un supplemento sul biglietto d’entrata, previa richiesta tramite il modulo di contatto.
+
 Le visite all’interno del museo sono sempre guidate.
 
 <h1>Tariffe</h1>

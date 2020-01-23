@@ -1,8 +1,12 @@
 ---
-title: 'Esposizioni'
-media_order: '20190916_151118.jpg,DSCF5933.JPG'
+title: Esposizioni
+media_order: 'IMG_0538.jpg,IMG_0552.jpg,IMG_0554.jpg'
 images:
     -
-        full: Foto-Esposizione.JPG
+        full: IMG_0538.jpg
+    -
+        full: IMG_0552.jpg
+    -
+        full: IMG_0554.jpg
 ---
 
