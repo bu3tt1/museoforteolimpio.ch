@@ -26,7 +26,4 @@ form:
                     - .png
                     - .jpg
                   label: Full Image
-                  help: Full image's filename.
-                .text:
-                  type: text
-                  label: Text     
+                  help: Full image's filename.  

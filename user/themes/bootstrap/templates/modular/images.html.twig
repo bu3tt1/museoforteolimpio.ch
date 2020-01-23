@@ -12,7 +12,7 @@
         {% for image in header.images %}
             <div class="col-sm-6 col-lg-4">
                 <a rel="lightbox" data-width="{{ imagesLightboxWidth }}" data-height="{{ imagesLightboxHeight }}" href="{{ page.media[image.full].cropResize(imagesLightboxWidth, imagesHimagesLightboxHeighteight).url }}">
-                    <img class="img-responsive" src="{{ page.media[image.full].cropZoom(imagesWidth, imagesHeight).url }}">
+                    <img class="img-responsive" src="{{ page.media[image.full].cropZoom(imagesWidth, imagesHeight).url }}" alt="{{ header.title }}">
                 </a>
                 {{ image.text }}
             </div>

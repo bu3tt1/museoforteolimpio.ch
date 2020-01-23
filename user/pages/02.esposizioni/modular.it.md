@@ -8,7 +8,7 @@ content:
         custom:
             - _header
             - _text
-            - _images
+            - _A8060
 onpage_menu: false
 highlight: false
 display: true
