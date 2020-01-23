@@ -73,6 +73,5 @@ form:
             extension: txt
             body: "{% include 'forms/data.txt.twig' %}"
         - message: Grazie per la sua richiesta!
-        - reset: true
 
 ---
