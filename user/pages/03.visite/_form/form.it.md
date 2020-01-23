@@ -57,8 +57,6 @@ form:
         - name: other
           label: Altre informazioni
           type: textarea
-
-
     buttons:
         - type: submit
           value: Invia richiesta
@@ -66,17 +64,15 @@ form:
     process:
         - email:
             from: "{{ config.plugins.email.from }}"
-            to:
-              - "{{ config.plugins.email.to }}"
-              - "{{ form.value.email }}"
-            subject: "[Feedback] {{ form.value.name|e }}"
+            to: "{{ config.plugins.email.to }}"
+            subject: "Modulo di contatto museoforteolimpio.ch"
             body: "{% include 'forms/data.html.twig' %}"
         - save:
             fileprefix: feedback-
             dateformat: Ymd-His-u
             extension: txt
             body: "{% include 'forms/data.txt.twig' %}"
-        - message: Thank you for your feedback!
-        - display: thankyou
+        - message: Grazie per la sua richiesta!
+        - reset: true
 
 ---
